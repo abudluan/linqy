@@ -1,6 +1,15 @@
-*{
-  padding: 0;
+* {
   margin: 0;
-  scroll-behavior: smooth;
+  padding: 0;
+}
+
+.app-container {
+  position: relative;
+  min-height: 100vh;
   background-color: #16161a;
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
