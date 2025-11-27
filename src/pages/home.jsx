@@ -33,10 +33,12 @@ const Home = () => {
                     </Col>
 
                     <Col xs={12} sm={6} md={4} lg={3}>
-                        <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
-                            <h5 className='titleLink'>Programação & Desenvolvimento</h5>
-                            <FaCode size={25} className='iconLink' />
-                        </SpotlightCard>
+                        <div onClick={() => navigate('/desenvolvimento')}>
+                            <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
+                                <h5 className='titleLink'>Programação & Desenvolvimento</h5>
+                                <FaCode size={25} className='iconLink' />
+                            </SpotlightCard>
+                        </div>
                     </Col>
 
                     <Col xs={12} sm={6} md={4} lg={3}>
