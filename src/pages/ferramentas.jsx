@@ -4,6 +4,9 @@ import '../styles/selectedLinks.scss';
 const Ferramentas = () => {
     return (
         <Container className="design-container">
+            <h3 className='titlePage'>Ferramentas</h3>
+
+            <h5 className='subCategoria mt-0'>Compartilhamento</h5>
             <Row className='g-2'>
                 <Col xs={12} sm={6} md={4} lg={3}>
                     <a href='https://file.pizza/' target='_blank' rel='noopener noreferrer'>

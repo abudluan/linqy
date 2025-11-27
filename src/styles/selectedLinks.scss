@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .design-container {
+    .titlePage{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 1em;
+        margin-top: 0;
+    }
+    
     a{
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
+    }
+
+    .subCategoria{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 1.5em;
+        border-bottom: 1px solid #7f5af0;
     }
 
     .cardSelectedLink {
@@ -13,6 +27,10 @@
         padding: 1em;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
+
+        @media (max-width: 576px) {
+            height: auto;
+        }
 
         .linkIcon {
             border-radius: 50px;
@@ -29,16 +47,8 @@
             color: gray;
         }
 
-
-
         &:hover {
             background-color: #7f5af022;
         }
     }
-
-
-
-
-
-
 }

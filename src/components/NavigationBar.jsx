@@ -5,7 +5,7 @@ import SplitText from '../anims/SplitText.jsx';
 
 const NavigationBar = () => {
   return (
-    <Navbar >
+    <Navbar>
       <Container>
         <Navbar.Brand>
           <SplitText
