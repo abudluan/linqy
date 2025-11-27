@@ -10,6 +10,7 @@ import Home from './pages/home.jsx';
 import Design from './pages/design.jsx';
 import Ferramentas from './pages/ferramentas.jsx';
 import Desenvolvimento from './pages/desenvolvimento.jsx';
+import Games from './pages/games.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/design' element={<Design />} /> 
             <Route path='/ferramentas' element={<Ferramentas />} /> 
             <Route path='/desenvolvimento' element={<Desenvolvimento />} />
+            <Route path='/games' element={<Games />} />
           </Routes>
           <Footer />
         </Router>

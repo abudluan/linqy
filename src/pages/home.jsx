@@ -42,10 +42,12 @@ const Home = () => {
                     </Col>
 
                     <Col xs={12} sm={6} md={4} lg={3}>
-                        <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
-                            <h5 className='titleLink'>Games</h5>
-                            <RiGameFill size={25} className='iconLink' />
-                        </SpotlightCard>
+                        <div onClick={() => navigate('/games')}>
+                            <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
+                                <h5 className='titleLink'>Games</h5>
+                                <RiGameFill size={25} className='iconLink' />
+                            </SpotlightCard>
+                        </div>
                     </Col>
 
                     <Col xs={12} sm={6} md={4} lg={3}>
