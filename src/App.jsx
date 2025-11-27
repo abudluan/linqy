@@ -8,6 +8,7 @@ import Footer from './components/Footer.jsx';
 
 import Home from './pages/home.jsx';
 import Design from './pages/design.jsx';
+import Ferramentas from './pages/ferramentas.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='/design' element={<Design />} /> 
+            <Route path='/ferramentas' element={<Ferramentas />} /> 
 
           </Routes>
           <Footer />

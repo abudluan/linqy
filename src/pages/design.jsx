@@ -1,6 +1,5 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import SpotlightCard from '../anims/SpotlightCard';
-import '../styles/design.scss';
+import '../styles/selectedLinks.scss';
 
 const Design = () => {
     return (
