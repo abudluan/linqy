@@ -14,7 +14,7 @@ const Home = () => {
         <>
             <Container className="home-container">
                 <Row className='g-2'>
-                    <Col xs={12} sm={6} md={4} lg={3}>
+                    <Col xs={6} md={3}>
                         <div onClick={() => navigate('/design')}>
                             <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
                                 <h5 className='titleLink'>Design & UI/UX</h5>
@@ -23,7 +23,7 @@ const Home = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} sm={6} md={4} lg={3}>
+                    <Col xs={6} md={3}>
                         <div onClick={() => navigate('/ferramentas')}>
                             <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
                                 <h5 className='titleLink'>Ferramentas</h5>
@@ -32,7 +32,7 @@ const Home = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} sm={6} md={4} lg={3}>
+                    <Col xs={6} md={3}>
                         <div onClick={() => navigate('/desenvolvimento')}>
                             <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
                                 <h5 className='titleLink'>Programação & Desenvolvimento</h5>
@@ -41,7 +41,7 @@ const Home = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} sm={6} md={4} lg={3}>
+                    <Col xs={6} md={3}>
                         <div onClick={() => navigate('/games')}>
                             <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
                                 <h5 className='titleLink'>Games</h5>
@@ -50,7 +50,7 @@ const Home = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} sm={6} md={4} lg={3}>
+                    <Col xs={6} md={3}>
                         <div onClick={() => navigate('/tecnologia')}>
                             <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
                                 <h5 className='titleLink'>Hardware & Tecnologia</h5>

@@ -11,6 +11,10 @@
     .titleLink {
         color: white;
         background-color: transparent;
+
+        @media (max-width: 576px) {
+            font-size: 1em;
+        }
     }
 
     .iconLink {
