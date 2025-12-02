@@ -16,7 +16,7 @@ const Home = () => {
                 <Row className='g-2'>
                     <Col xs={6} md={3}>
                         <div onClick={() => navigate('/design')}>
-                            <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
+                            <SpotlightCard className="cardHomeLink">
                                 <h5 className='titleLink'>Design & UI/UX</h5>
                                 <FaPalette size={25} className='iconLink' />
                             </SpotlightCard>
@@ -25,7 +25,7 @@ const Home = () => {
 
                     <Col xs={6} md={3}>
                         <div onClick={() => navigate('/ferramentas')}>
-                            <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
+                            <SpotlightCard className="cardHomeLink">
                                 <h5 className='titleLink'>Ferramentas</h5>
                                 <FaTools size={25} className='iconLink' />
                             </SpotlightCard>
@@ -34,7 +34,7 @@ const Home = () => {
 
                     <Col xs={6} md={3}>
                         <div onClick={() => navigate('/desenvolvimento')}>
-                            <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
+                            <SpotlightCard className="cardHomeLink">
                                 <h5 className='titleLink'>Programação & Desenvolvimento</h5>
                                 <FaCode size={25} className='iconLink' />
                             </SpotlightCard>
@@ -43,7 +43,7 @@ const Home = () => {
 
                     <Col xs={6} md={3}>
                         <div onClick={() => navigate('/games')}>
-                            <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
+                            <SpotlightCard className="cardHomeLink">
                                 <h5 className='titleLink'>Games</h5>
                                 <RiGameFill size={25} className='iconLink' />
                             </SpotlightCard>
@@ -52,7 +52,7 @@ const Home = () => {
 
                     <Col xs={6} md={3}>
                         <div onClick={() => navigate('/tecnologia')}>
-                            <SpotlightCard className="cardHomeLink" spotlightColor="#7f5af0">
+                            <SpotlightCard className="cardHomeLink">
                                 <h5 className='titleLink'>Hardware & Tecnologia</h5>
                                 <IoHardwareChip size={25} className='iconLink' />
                             </SpotlightCard>

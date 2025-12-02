@@ -1,18 +1,18 @@
 .footerCustom {
     margin-top: 2em;
     bottom: 0;
-    color: white;
+    color: var(--footer-text);
     text-align: center;
     padding: 1em 0;
     width: 100%;
     
     .linkFooter{
-        color: #7f5af0a0;
+        color: #6b40ea;
         text-decoration: none;
         font-weight: bold;
 
         &:hover{
-            color: #7f5af0;
+            color: #6b40ea;
             text-decoration: underline;
         }
     }

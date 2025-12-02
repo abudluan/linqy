@@ -2,26 +2,26 @@
 
 .design-container {
 
-    .iconTitle{
-        color: white;
+    .iconTitle {
+        color: var(--color-icon);
         margin-right: 0.5em;
         vertical-align: sub;
     }
 
-    .titlePage{
-        color: white;
+    .titlePage {
+        color: var(--title-page);
         font-family: 'Poppins', sans-serif;
         margin-bottom: 1em;
         margin-top: 0;
     }
-    
-    a{
+
+    a {
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
     }
 
-    .subCategoria{
-        color: white;
+    .subCategoria {
+        color: var(--title-subcategory);
         font-family: 'Poppins', sans-serif;
         margin-top: 1.5em;
         border-bottom: 1px solid #7f5af0;
@@ -29,8 +29,8 @@
 
     .cardSelectedLink {
         height: 18em;
-        background-color: #111;
-        border: 1px solid #222;
+        background-color: var(--card-bg);
+        border: none;
         padding: 1em;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
@@ -47,11 +47,11 @@
         }
 
         .titleLink {
-            color: white;
+            color: var(--link-title-card);
         }
 
         .linkDescript {
-            color: gray;
+            color: var(--descript-card);
         }
 
         &:hover {

@@ -6,10 +6,56 @@
 .app-container {
   position: relative;
   min-height: 100vh;
-  background-color: #16161a;
 }
 
 
 html {
   scroll-behavior: smooth;
+}
+
+/* =============================
+   VARIÁVEIS DO MODO CLARO
+   ============================= */
+:root {
+  --bg: #eff0f3;
+
+  --card-bg: #fffffe;
+  --link-title-card: #6b40ea;
+  --icon-card-home: #6b40ea;
+  --spotlight-color: #6b40ea69;
+
+  --color-icon: #6b40ea;
+  --title-page: #6b40ea;
+  --title-subcategory: #111;
+  --descript-card: rgb(90, 90, 90);
+
+  --footer-text: rgb(70, 70, 70);
+}
+
+/* =============================
+   VARIÁVEIS DO MODO ESCURO
+   ============================= */
+.dark-mode {
+  --bg: #16161a;
+
+  --card-bg: #111;
+  --link-title-card: white;
+  --icon-card-home: white;
+  --spotlight-color: #7f5af04d;
+
+  --color-icon: white;
+  --title-page: white;
+  --title-subcategory: white;
+  --descript-card: gray;
+
+  --footer-text: white;
+}
+
+/* =============================
+   APLICAÇÃO GLOBAL
+   ============================= */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.25s ease, color 0.25s ease;
 }

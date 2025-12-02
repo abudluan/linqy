@@ -2,6 +2,20 @@
 
 .navText {
     font-family: 'Exo 2', sans-serif !important;
-    color: #7f5af0;
+    color: #6b40ea;
     font-size: 1.4em;
+    margin: auto;
+}
+
+.btn-theme-toggle {
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+        background-color: #6b40ea25;
+    }
+
+    .iconBtn {
+        vertical-align: sub;
+    }
 }
