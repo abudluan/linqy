@@ -74,6 +74,25 @@ const Desenvolvimento = () => {
                     </a>
                 </Col>
 
+                <Col xs={12} sm={6} md={4} lg={3}>
+                    <a href='https://coddy.tech/' target='_blank' rel='noopener noreferrer'>
+                        <Card className='cardSelectedLink'>
+                            <h5 className="titleLink d-flex align-items-center gap-2">
+                                <img
+                                    src="src/assets/desenvolvimento/coddyTech.png"
+                                    alt="React Bits Logo"
+                                    className="linkIcon"
+                                />
+                                Coddy
+                            </h5>
+
+                            <p className='linkDescript'>
+                                Aprenda código de uma maneira divertida e eficaz com o Coddy.Tech – aproveite o domínio de diversas linguagens de programação diariamente e crie habilidades com facilidade, tudo online!
+                            </p>
+                        </Card>
+                    </a>
+                </Col>
+
             </Row>
         </Container>
     )
