@@ -10,6 +10,7 @@ const Estudo = () => {
         { id: "calculadoras", label: "Calculadoras" },
         { id: "cursos", label: "Cursos & Aprendizado" },
         { id: "idiomas", label: "Idiomas" },
+        { id: "programação", label: "Programação" },
     ];
 
     const [filtroAtivo, setFiltroAtivo] = useState("todos");
@@ -48,6 +49,23 @@ const Estudo = () => {
             descricao:
                 "Aprenda mais de 45 idiomas através de frases úteis e lições simples para o dia a dia.",
             categoria: "idiomas",
+        },
+
+        {
+            titulo: "Coddy",
+            url: "https://coddy.tech/",
+            img: "src/assets/estudo/coddyTech.png",
+            descricao:
+                "Aprenda código de uma maneira divertida e eficaz com o Coddy.Tech – aproveite o domínio de diversas linguagens de programação diariamente e crie habilidades com facilidade, tudo online!",
+            categoria: "programação",
+        },
+        {
+            titulo: "Front-End Mentor",
+            url: "https://www.frontendmentor.io/",
+            img: "src/assets/estudo/frontEndMentor.png",
+            descricao:
+                "Crie projetos front-end e full-stack com projetos profissionais da Figma. Pratique HTML, CSS, JavaScript, React, Node e muito mais gratuitamente.",
+            categoria: "programação",
         },
     ];
 

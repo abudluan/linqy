@@ -7,7 +7,8 @@ const Desenvolvimento = () => {
   const filtros = [
     { id: "todos", label: "Todos" },
     { id: "bibliotecas", label: "Bibliotecas" },
-    { id: "estudos", label: "Estudos" },
+    { id: "documentação", label: "Documentação" },
+    { id: "api", label: "API's" },
   ];
 
   const [filtroAtivo, setFiltroAtivo] = useState("todos");
@@ -23,30 +24,21 @@ const Desenvolvimento = () => {
     },
 
     {
-      titulo: "Front-End Mentor",
-      url: "https://www.frontendmentor.io/",
-      img: "src/assets/desenvolvimento/frontEndMentor.png",
-      descricao:
-        "Construa projetos reais e melhore suas habilidades de front-end.",
-      categoria: "estudos",
-    },
-
-    {
       titulo: "QuickRef.ME",
       url: "https://quickref.me/",
       img: "src/assets/desenvolvimento/quickRefMe.png",
       descricao:
         "Busque cheatsheets e referências rápidas de várias linguagens.",
-      categoria: "estudos",
+      categoria: "documentação",
     },
 
     {
-      titulo: "Coddy",
-      url: "https://coddy.tech/",
-      img: "src/assets/desenvolvimento/coddyTech.png",
+      titulo: "NASA APIs",
+      url: "https://api.nasa.gov/",
+      img: "src/assets/desenvolvimento/nasaAPI.png",
       descricao:
-        "Aprenda programação de forma divertida com desafios diários.",
-      categoria: "estudos",
+        "API com dados da NASA, incluindo imagens, eminentemente acessíveis aos desenvolvedores.",
+      categoria: "api",
     },
   ];
 
