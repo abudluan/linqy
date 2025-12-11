@@ -37,7 +37,6 @@ function App() {
             <Route path='/estudo' element={<Estudo/>} />
             <Route path='/wallpaper' element={<Wallpaper/>} />
           </Routes>
-          <Footer />
         </Router>
       </div>
 
