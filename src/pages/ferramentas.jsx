@@ -18,7 +18,7 @@ const Ferramentas = () => {
         {
             titulo: "File Pizza",
             url: "https://file.pizza/",
-            img: "src/assets/ferramentas/filePizza.png",
+            img: "public/ferramentas/filePizza.png",
             descricao:
                 "FilePizza é um serviço que permite enviar arquivos diretamente entre navegadores, sem armazenamento em servidores, usando conexão P2P via WebRTC.",
             categoria: "compartilhamento",
@@ -26,7 +26,7 @@ const Ferramentas = () => {
         {
             titulo: "PDF Candy",
             url: "https://pdfcandy.com/pt/",
-            img: "src/assets/ferramentas/candyPDF.png",
+            img: "public/ferramentas/candyPDF.png",
             descricao:
                 "Todas as ferramentas de que você precisa para processar arquivos PDF: editar, converter, mesclar, compactar, assinar e muito mais.",
             categoria: "arquivos",
@@ -34,7 +34,7 @@ const Ferramentas = () => {
         {
             titulo: "Versus",
             url: "https://versus.com/br",
-            img: "src/assets/ferramentas/versus.png",
+            img: "public/ferramentas/versus.png",
             descricao:
                 "Versus é uma plataforma global de comparação com base em dados, abrangendo mais de 90 categorias. Compare smartphones, câmeras, fones de ouvido, e muito mais.",
             categoria: "comparacao",

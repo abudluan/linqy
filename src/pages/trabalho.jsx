@@ -16,7 +16,7 @@ const Trabalho = () => {
         {
             titulo: "Resume Genius",
             url: "https://resumegenius.com/",
-            img: "src/assets/trabalho/resumeGenius.png",
+            img: "public/trabalho/resumeGenius.png",
             descricao:
                 "Faça um currículo pronto para o trabalho rapidamente. Escolha entre mais de 150 modelos, gere conteúdo otimizado para ATS e baixe em Word ou PDF.",
             categoria: "curriculos",

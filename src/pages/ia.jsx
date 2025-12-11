@@ -16,7 +16,7 @@ const IA = () => {
         {
             titulo: "Framer IA",
             url: "https://www.framer.com/ai/",
-            img: "src/assets/ia/framerIA.png",
+            img: "public/ia/framerIA.png",
             descricao:
                 "Framer é a ferramenta de design para sites. Crie designs livremente, publique rapidamente e expanda com CMS, SEO, análises e muito mais. Comece gratuitamente.",
             categoria: "design",
@@ -24,7 +24,7 @@ const IA = () => {
         {
             titulo: "pixie.haus",
             url: "https://pixie.haus/",
-            img: "src/assets/ia/pixieHaus.png",
+            img: "public/ia/pixieHaus.png",
             descricao:
                 "Gerador de pixel art de IA para criação precisa de sprite. Experimente saídas rápidas, remoção automática de fundo e manuseio de pixels sem costura.",
             categoria: "design",
@@ -32,7 +32,7 @@ const IA = () => {
         {
             titulo: "Banana Prompts",
             url: "https://www.bananaprompts.xyz/",
-            img: "src/assets/ia/bananaPrompts.png",
+            img: "public/ia/bananaPrompts.png",
             descricao:
                 "Navegue por vídeos cinematográficos, explore imagens impressionantes, copie os prompts exatos e acompanhe as tendências que moldam a arte gerativa.",
             categoria: "prompts",

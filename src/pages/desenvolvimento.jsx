@@ -17,7 +17,7 @@ const Desenvolvimento = () => {
     {
       titulo: "Public APIs",
       url: "https://github.com/public-apis/public-apis",
-      img: "src/assets/desenvolvimento/publicAPIS.png",
+      img: "public/desenvolvimento/publicAPIS.png",
       descricao:
         "O repositório de APIs públicas é mantido manualmente por membros da comunidade e pela equipe do APILayer. Ele reúne uma ampla lista de APIs de diversos domínios que você pode usar em seus próprios produtos.",
       categoria: "api",
@@ -26,7 +26,7 @@ const Desenvolvimento = () => {
     {
       titulo: "NASA API",
       url: "https://api.nasa.gov/",
-      img: "src/assets/desenvolvimento/nasaAPI.png",
+      img: "public/desenvolvimento/nasaAPI.png",
       descricao:
         "API com dados da NASA, incluindo imagens, eminentemente acessíveis aos desenvolvedores.",
       categoria: "api",
@@ -34,7 +34,7 @@ const Desenvolvimento = () => {
     {
       titulo: "React Bits",
       url: "https://reactbits.dev/",
-      img: "src/assets/desenvolvimento/reactBits.png",
+      img: "public/desenvolvimento/reactBits.png",
       descricao:
         "Coleção de componentes React de alta qualidade, animados e customizáveis.",
       categoria: "bibliotecas",
@@ -42,7 +42,7 @@ const Desenvolvimento = () => {
     {
       titulo: "QuickRef.ME",
       url: "https://quickref.me/",
-      img: "src/assets/desenvolvimento/quickRefMe.png",
+      img: "public/desenvolvimento/quickRefMe.png",
       descricao:
         "Busque cheatsheets e referências rápidas de várias linguagens.",
       categoria: "documentação",

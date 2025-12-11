@@ -17,7 +17,7 @@ const Games = () => {
         {
             titulo: "Spawnd Alpha",
             url: "https://www.spawnd.gg/pt",
-            img: "src/assets/games/spawnd.png",
+            img: "public/games/spawnd.png",
             descricao:
                 "Jogos de alta qualidade no seu navegador, sem instalações necessárias, tela cheia e livre de distrações. Jogue agora de graça.",
             categoria: "cloud",
@@ -25,7 +25,7 @@ const Games = () => {
         {
             titulo: "AirConsole",
             url: "https://www.airconsole.com/",
-            img: "src/assets/games/airConsole.png",
+            img: "public/games/airConsole.png",
             descricao:
                 "Você vai encontrar mais de 140 jogos em nossa biblioteca - de corridas, esportes, co-op, quebra-cabeça, jogos de quiz e muitos mais! Use seu celular como controle.",
             categoria: "cloud",
@@ -33,7 +33,7 @@ const Games = () => {
         {
             titulo: "SteamGridDB",
             url: "https://www.steamgriddb.com/",
-            img: "src/assets/games/steamGriddb.png",
+            img: "public/games/steamGriddb.png",
             descricao:
                 "Baixe e compartilhe recursos personalizados de jogos e personalize sua biblioteca de jogos.",
             categoria: "assets",
