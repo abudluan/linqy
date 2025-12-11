@@ -14,7 +14,7 @@ const NavigationBar = () => {
       <Container>
         <Navbar.Brand>
           <SplitText
-            text="Linky"
+            text="Linqy"
             className="navText"
             delay={100}
             duration={0.6}
