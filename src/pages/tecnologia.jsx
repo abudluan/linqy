@@ -15,7 +15,7 @@ const Tecnologia = () => {
         {
             titulo: "PC Builds",
             url: "https://pc-builds.com/pt/",
-            img: "public/tecnologia/pcBuilds.png",
+            img: "/tecnologia/pcBuilds.png",
             descricao:
                 "Descubra calculadoras de gargalos, FPS, RAM e PSU, requisitos de sistema de jogos, benchmarks de componentes e muito mais!",
             categoria: "montagem",
@@ -23,7 +23,7 @@ const Tecnologia = () => {
         {
             titulo: "Technical City",
             url: "https://technical.city/pt",
-            img: "public/tecnologia/tecnicalCity.png",
+            img: "/tecnologia/tecnicalCity.png",
             descricao:
                 "Comparações, especificações e classificações de placas de vídeo e processadores.",
             categoria: "montagem",
@@ -31,7 +31,7 @@ const Tecnologia = () => {
         {
             titulo: "MEUPC.NET",
             url: "https://meupc.net/",
-            img: "public/tecnologia/meuPC.png",
+            img: "/tecnologia/meuPC.png",
             descricao:
                 "Monte seu computador Gamer escolhendo cada componente entre milhares de peças disponíveis.",
             categoria: "montagem",

@@ -17,7 +17,7 @@ const Wallpaper = () => {
         {
             titulo: "8 Bit Dashboard",
             url: "https://8bitdashboard.com/",
-            img: "public/wallpaper/8bitDash.png",
+            img: "/wallpaper/8bitDash.png",
             descricao:
                 "Painel animado em estilo 8 bits com relógio, atalhos e saudação. Perfeito como página inicial.",
             categoria: "animados",
@@ -25,7 +25,7 @@ const Wallpaper = () => {
         {
             titulo: "DesktopHut",
             url: "https://www.desktophut.com/",
-            img: "public/wallpaper/desktopHut.png",
+            img: "/wallpaper/desktopHut.png",
             descricao:
                 "Use wallpapers animados (2D e 3D) como fundo da sua área de trabalho ou celular.",
             categoria: "animados",
@@ -33,7 +33,7 @@ const Wallpaper = () => {
         {
             titulo: "Wallhaven.cc",
             url: "https://wallhaven.cc/",
-            img: "public/wallpaper/wallhaven.png",
+            img: "/wallpaper/wallhaven.png",
             descricao:
                 "Repositório gigante com mais de 1 milhão de wallpapers estáticos em alta qualidade.",
             categoria: "estaticos",

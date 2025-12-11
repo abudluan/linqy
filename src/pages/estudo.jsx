@@ -19,7 +19,7 @@ const Estudo = () => {
         {
             titulo: "Cymath",
             url: "https://www.cymath.com/",
-            img: "public/estudo/cyMath.png",
+            img: "/estudo/cyMath.png",
             descricao:
                 "Insira seu problema de matemática e receba a resolução passo a passo automaticamente.",
             categoria: "calculadoras",
@@ -27,7 +27,7 @@ const Estudo = () => {
         {
             titulo: "OmniCalculator",
             url: "https://www.omnicalculator.com/",
-            img: "public/estudo/omniCalculator.png",
+            img: "/estudo/omniCalculator.png",
             descricao:
                 "Centenas de calculadoras inteligentes para física, matemática, finanças, saúde, conversões e mais.",
             categoria: "calculadoras",
@@ -36,7 +36,7 @@ const Estudo = () => {
         {
             titulo: "Khan Academy",
             url: "https://www.khanacademy.org/",
-            img: "public/estudo/khanAcademy.png",
+            img: "/estudo/khanAcademy.png",
             descricao:
                 "Aulas e exercícios gratuitos em matemática, ciências, computação e diversos outros temas.",
             categoria: "cursos",
@@ -45,7 +45,7 @@ const Estudo = () => {
         {
             titulo: "LingoHut",
             url: "https://www.lingohut.com/pt",
-            img: "public/estudo/lingoHunt.png",
+            img: "/estudo/lingoHunt.png",
             descricao:
                 "Aprenda mais de 45 idiomas através de frases úteis e lições simples para o dia a dia.",
             categoria: "idiomas",
@@ -54,7 +54,7 @@ const Estudo = () => {
         {
             titulo: "Coddy",
             url: "https://coddy.tech/",
-            img: "public/estudo/coddyTech.png",
+            img: "/estudo/coddyTech.png",
             descricao:
                 "Aprenda código de uma maneira divertida e eficaz com o Coddy.Tech – aproveite o domínio de diversas linguagens de programação diariamente e crie habilidades com facilidade, tudo online!",
             categoria: "programação",
@@ -62,7 +62,7 @@ const Estudo = () => {
         {
             titulo: "Front-End Mentor",
             url: "https://www.frontendmentor.io/",
-            img: "public/estudo/frontEndMentor.png",
+            img: "/estudo/frontEndMentor.png",
             descricao:
                 "Crie projetos front-end e full-stack com projetos profissionais da Figma. Pratique HTML, CSS, JavaScript, React, Node e muito mais gratuitamente.",
             categoria: "programação",

@@ -17,7 +17,7 @@ const Design = () => {
         {
             titulo: "QuickFavs",
             url: "https://quickfavs.com/",
-            img: "public/design/quickFavs.png",
+            img: "/design/quickFavs.png",
             descricao:
                 "Crie favicons de alta qualidade para seu site enviando uma imagem e gerando tudo automaticamente.",
             categoria: "ferramentas",
@@ -25,7 +25,7 @@ const Design = () => {
         {
             titulo: "Baixar Favicon",
             url: "https://baixarfavicon.com.br/",
-            img: "public/design/baixarFavIcon.png",
+            img: "/design/baixarFavIcon.png",
             descricao:
                 "Insira a URL de um site e baixe automaticamente seu favicon em alta qualidade.",
             categoria: "ferramentas",
@@ -33,7 +33,7 @@ const Design = () => {
         {
             titulo: "Haikei",
             url: "https://haikei.app/",
-            img: "public/design/hankei.png",
+            img: "/design/hankei.png",
             descricao:
                 "Gere formas, blobs, ondas e fundos em SVG para usar em sites, apps e artes.",
             categoria: "ferramentas",
@@ -41,7 +41,7 @@ const Design = () => {
         {
             titulo: "Shape Divider App",
             url: "https://www.shapedivider.app/",
-            img: "public/design/shapeDivider.png",
+            img: "/design/shapeDivider.png",
             descricao:
                 "Crie divisores de seção em SVG e exporte diretamente para seu site ou estrutura.",
             categoria: "ferramentas",
@@ -50,7 +50,7 @@ const Design = () => {
         {
             titulo: "Happy Hues",
             url: "https://www.happyhues.co/",
-            img: "public/design/happyHues.png",
+            img: "/design/happyHues.png",
             descricao:
                 "Inspiração de paletas de cores com exemplos reais aplicados em telas completas.",
             categoria: "cores",
