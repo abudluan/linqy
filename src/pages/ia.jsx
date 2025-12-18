@@ -30,6 +30,14 @@ const IA = () => {
             categoria: "design",
         },
         {
+            titulo: "Stich",
+            url: "https://stitch.withgoogle.com/",
+            img: "/ia/stichIA.png",
+            descricao:
+                "O Stitch gera interfaces de usuário para aplicativos móveis e web, tornando a ideação de design rápida e fácil.",
+            categoria: "design",
+        },
+        {
             titulo: "Banana Prompts",
             url: "https://www.bananaprompts.xyz/",
             img: "/ia/bananaPrompts.png",

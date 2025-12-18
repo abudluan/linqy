@@ -32,6 +32,14 @@ const Ferramentas = () => {
             categoria: "arquivos",
         },
         {
+            titulo: "PDF24 Tools",
+            url: "https://tools.pdf24.org/pt/",
+            img: "/ferramentas/pdf24.png",
+            descricao:
+                "Ferramentas online de PDF gratuitas e fáceis de usar que aumentam sua produtividade.",
+            categoria: "arquivos",
+        },
+        {
             titulo: "Versus",
             url: "https://versus.com/br",
             img: "/ferramentas/versus.png",
